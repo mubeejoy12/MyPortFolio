@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+import "./navs.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { RiBook2Line } from "react-icons/ri";
@@ -43,3 +45,7 @@ const Navs = () => {
         <BiMessageAltDetail />
       </a>
     </nav>
+  );
+};
+
+export default Navs;
