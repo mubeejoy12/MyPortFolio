@@ -37,6 +37,7 @@ body {
 /* genral style */
 .container {
   width: var(--container-width-lg);
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -51,6 +52,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -103,19 +105,17 @@ img {
   .container {
     width: var(--contianer-width-md);
   }
-  section{
+  section {
     margin-top: 6rem;
   }
 }
-
 
 /* ****** media quaries (small device) */
 @media screen and (max-width: 600px) {
   .container {
     width: var(--contianer-width-sm);
   }
-  section > h2{
+  section > h2 {
     margin-bottom: 2rem;
   }
 }
-
