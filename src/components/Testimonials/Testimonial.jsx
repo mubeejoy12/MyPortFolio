@@ -1,9 +1,9 @@
 import React from "react";
 import "./testimonial.css";
 const Testimonial = () => {
-  return <div>
+  return <section id="testimonial">
     testimonial
-  </div>;
+  </section>;
 };
 
 export default Testimonial;
