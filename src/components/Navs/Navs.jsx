@@ -4,6 +4,7 @@ import { RiBook2Line } from "react-icons/ri";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageAltDetail } from "react-icons/bi";
 const Navs = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <div>
       Navs
