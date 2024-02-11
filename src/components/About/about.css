@@ -22,6 +22,10 @@
   transform: rotate(10deg);
   transition: var(--transition);
 }
+.about__me-image img {
+  height: 50vh;
+  width: 25vw;
+}
 .about__me-image:hover {
   transform: rotate(0deg);
 }
