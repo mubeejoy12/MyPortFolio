@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import me from "../../assets/me-about.jpg";
+import mene from '../../assets/DSC_8916.jpg'
 import { FaAward } from "react-icons/fa";
 import { TbUsers } from "react-icons/tb";
 import { GrFolderCycle } from "react-icons/gr";
@@ -12,7 +13,7 @@ function About() {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={me} alt="About Image" />
+            <img src={mene} alt="About Image" />
           </div>
         </div>
         <div className="about__content">
