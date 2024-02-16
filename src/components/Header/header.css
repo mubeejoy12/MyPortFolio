@@ -46,7 +46,8 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 .img {
-  height: 31rem;
+  height: 33rem;
+  padding-left: 20px;
 }
 
 /* scroll down */
